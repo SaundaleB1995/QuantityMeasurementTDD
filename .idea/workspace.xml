@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff4bcfe-c220-4000-853f-3836f064c1ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/QuantityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/QuantityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.QuantityTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.QuantityTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.QuantityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.QuantityTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/QuantityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +67,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QuantityTest.given2InchAdd2Inch_ShouldReturn4Inch">
+  <component name="RunManager" selected="Gradle.QuantityTest.given1FeetAdd2Inch_ShouldReturn14Inch">
     <configuration name="QuantityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -75,12 +88,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityTest.given1InchAnd1Yard_WhenCompare_ShouldReturnNotEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityTest.given1FeetAdd2Inch_ShouldReturn14Inch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given1InchAnd1Yard_WhenCompare_ShouldReturnNotEqual&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given1FeetAdd2Inch_ShouldReturn14Inch&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -157,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QuantityTest.given1FeetAdd2Inch_ShouldReturn14Inch" />
         <item itemvalue="Gradle.QuantityTest.given2InchAdd2Inch_ShouldReturn4Inch" />
         <item itemvalue="Gradle.QuantityTest.given2InchAnd5Centimeter_WhenCompare_ShouldReturnEqual" />
         <item itemvalue="Gradle.QuantityTest" />
         <item itemvalue="Gradle.QuantityTest.given1YardAnd36Inch_WhenCompare_ShouldReturnEqual" />
-        <item itemvalue="Gradle.QuantityTest.given1InchAnd1Yard_WhenCompare_ShouldReturnNotEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -191,22 +204,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588105013454" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588112629586">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588112784360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588112629586" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588112629586">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588112784360" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588112784360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588112629586" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588112629586">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588112784360" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588112784360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588112629586" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588112629586">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588112784360" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588112784360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588112629586" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588112784360" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588102225105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
