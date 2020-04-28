@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.QuantityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T19:52:06" hostname="DESKTOP-J547DO8" time="0.009">
+  <properties/>
+  <testcase name="given0FeetAnd0Feet_ShouldReturnEquals" classname="com.bridgelabz.QuantityTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
