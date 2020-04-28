@@ -2,8 +2,7 @@ package com.bridgelabz;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-                                                                                                                                                                                                                                                                                                                                public class QuantityTest {
+public class QuantityTest {
     @Test
     public void given0FeetAnd0Feet_ShouldReturnEquals() {
         Length feet1 = new Length(Length.Unit.FEET,0.0);
@@ -58,4 +57,13 @@ import org.junit.Test;
         boolean compareCheck = feet1.compare(feet2);
         Assert.assertTrue(compareCheck);
     }
-}
+    @Test
+    public void givenFeetAndFeet_ShouldReturnNull() {
+        Length feet1= new Length(Length.Unit.FEET, 0.0);
+        Length feet2=null;
+        Assert.assertNotEquals(feet1,feet2);
+
+    }
+    }
+
+
