@@ -25,5 +25,10 @@ public class Length {
         double value2=that.unit.getBaseValue()*that.value;
         return Double.compare(value1,value2)==0;
     }
+    public double addValue(Length that) {
+        double value1=this.unit.getBaseValue()*this.value;
+        double value2=that.unit.getBaseValue()*that.value;
+        return value1+value2;
+    }
 
 }

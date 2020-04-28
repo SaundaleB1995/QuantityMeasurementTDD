@@ -98,6 +98,13 @@ public class QuantityTest {
         boolean inchToCm = inch.compare(cm);
         Assert.assertTrue(inchToCm);
     }
+    @Test
+    public void given2InchAdd2Inch_ShouldReturn4Inch() {
+        Length inch1 = new Length(Unit.INCH, 2.0);
+        Length inch2 = new Length(Unit.INCH, 2.0);
+        double total= inch1.addValue(inch2);
+        Assert.assertEquals(4.0,total,0.0);
+    }
 }
 
 
