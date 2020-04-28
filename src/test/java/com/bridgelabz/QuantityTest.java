@@ -3,7 +3,7 @@ package com.bridgelabz;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class QuantityTest {
+                                                                                                                                                                                                                                                                                                                                public class QuantityTest {
     @Test
     public void given0FeetAnd0Feet_ShouldReturnEquals() {
         Length feet1 = new Length(Length.Unit.FEET,0.0);
@@ -34,6 +34,28 @@ public class QuantityTest {
         Length feet = new Length(Length.Unit.FEET,1.0);
         Length inch = new Length(Length.Unit.INCH, 1.0);
         Assert.assertNotEquals(feet,inch);
+    }
+    @Test
+    public void given0FeetAnd0Inch_ShouldReturnEqualLength() {
+        Length feet = new Length(Length.Unit.FEET, 0.0);
+        Length inch = new Length(Length.Unit.INCH, 0.0);
+        boolean compareCheck = feet.compare(inch);
+        Assert.assertTrue(compareCheck);
+    }
 
+    @Test
+    public void given0FeetAnd0Inch_ShouldReturnNotEqualLength() {
+        Length feet = new Length(Length.Unit.FEET, 1.0);
+        Length inch = new Length(Length.Unit.INCH, 1.0);
+        boolean compareCheck = feet.compare(inch);
+        Assert.assertFalse(compareCheck);
+    }
+
+    @Test
+    public void given1FeetAnd1Feet_WhenCompared_ShouldReturnEqualLength() {
+        Length feet1= new Length(Length.Unit.FEET, 1.0);
+        Length feet2 = new Length(Length.Unit.FEET, 1.0);
+        boolean compareCheck = feet1.compare(feet2);
+        Assert.assertTrue(compareCheck);
     }
 }
