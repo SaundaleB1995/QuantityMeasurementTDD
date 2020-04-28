@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.QuantityTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-04-28T21:59:34" hostname="DESKTOP-J547DO8" time="0.05">
+<testsuite name="com.bridgelabz.QuantityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T22:17:43" hostname="DESKTOP-J547DO8" time="0.014">
   <properties/>
-  <testcase name="given1FeetAnd1Yard_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.01"/>
-  <testcase name="given0InchAnd0Inch_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.005"/>
-  <testcase name="given0InchAnd1Inch_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given0FeetAnd0Inch_ShouldReturnEqualLength" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given0FeetAnd0Inch_ShouldReturnNotEqualLength" classname="com.bridgelabz.QuantityTest" time="0.003"/>
-  <testcase name="given1FeetAnd1Inch_ShouldReturnNotEquals" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given0FeetAnd0Feet_ShouldReturnEquals" classname="com.bridgelabz.QuantityTest" time="0.003"/>
-  <testcase name="given0FeetAnd1Feet_ShouldReturnNotEquals" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="given1YardAnd36Inch_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given1InchAnd1Yard_WhenCompare_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="given1FeetAnd1Feet_WhenCompared_ShouldReturnEqualLength" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="givenFeetAndFeet_ShouldReturnNull" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="given3FeetAnd1Yard_WhenCompared_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
+  <testcase name="given2InchAnd5Centimeter_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.014"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

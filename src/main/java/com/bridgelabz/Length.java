@@ -21,17 +21,9 @@ public class Length {
         return Double.compare(length.value, value) == 0 &&  unit==length.unit;
     }
     public boolean compare(Length that) {
-        if (this.unit.equals(Unit.FEET)&&that.unit.equals(Unit.FEET))
-            return Double.compare(this.value,that.value)==0;
-        if (this.unit.equals(Unit.FEET)&&that.unit.equals(Unit.INCH))
-            return Double.compare(this.value*FEET_TO_INCH,that.value)==0;
-
-        if (this.unit.equals(unit.FEET)&& that.unit.equals(Unit.YARD))
-            return Double.compare(this.value,that.value*YARD_TO_FEET)==0;
-
-        if (this.unit.equals(unit.INCH)&& that.unit.equals(Unit.YARD))
-            return Double.compare(this.value,that.value*YARD_TO_FEET*FEET_TO_INCH)==0;
-        return false;
+            double value1=this.unit.getBaseValue()*this.value;
+        double value2=that.unit.getBaseValue()*that.value;
+        return Double.compare(value1,value2)==0;
     }
 
 }
