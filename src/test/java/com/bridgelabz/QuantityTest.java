@@ -163,6 +163,13 @@ public class QuantityTest {
         double total = litre.addValue(mililitre);
         Assert.assertEquals(2.0, total, 0.0);
     }
+    @Test
+    public void given1kgAnd1000Gram_WhenCompare_ShouldReturnEqual() {
+        Length kiloGrams = new Length(Unit.KILOGRAM, 1.0);
+        Length grams = new Length(Unit.GRAMS, 1000.0);
+        boolean compareCheck = kiloGrams.compare(grams);
+        Assert.assertTrue(compareCheck);
+    }
 }
 
 
