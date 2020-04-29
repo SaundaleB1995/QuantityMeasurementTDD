@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff4bcfe-c220-4000-853f-3836f064c1ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/QuantityTest.java" afterDir="false" />
     </list>
@@ -55,7 +54,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QuantityTest.given2InchAdd2Point5Centimeter_ShouldReturn3Inch">
+  <component name="RunManager" selected="Gradle.QuantityTest">
     <configuration name="QuantityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QuantityTest" />
         <item itemvalue="Gradle.QuantityTest.given2InchAdd2Point5Centimeter_ShouldReturn3Inch" />
         <item itemvalue="Gradle.QuantityTest.given1FeetAdd2Inch_ShouldReturn14Inch" />
         <item itemvalue="Gradle.QuantityTest.given2InchAdd2Inch_ShouldReturn4Inch" />
         <item itemvalue="Gradle.QuantityTest.given2InchAnd5Centimeter_WhenCompare_ShouldReturnEqual" />
-        <item itemvalue="Gradle.QuantityTest" />
       </list>
     </recent_temporary>
   </component>
