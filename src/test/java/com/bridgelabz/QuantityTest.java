@@ -119,6 +119,13 @@ public class QuantityTest {
         double total= inch1.addValue(cm1);
         Assert.assertEquals(3.0,total,0.0);
     }
-}
+    @Test
+    public void given1GallonAnd3point78Liters_WhenCompare_ShouldReturnEqual() {
+        Length gallon = new Length(Unit.GALLON, 1.0);
+        Length litter = new Length(Unit.LITTER, 3.78);
+        boolean compareCheck = gallon.compare(litter);
+        Assert.assertTrue(compareCheck);
+    }
+    }
 
 
