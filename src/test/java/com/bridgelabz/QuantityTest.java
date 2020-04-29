@@ -184,7 +184,13 @@ public class QuantityTest {
         double total = tonne.addValue(grams);
         Assert.assertEquals(1001.0, total, 0.0);
     }
-
+    @Test
+    public void given212FahrenheitAnd100Celsius_shouldReturnEqual() {
+        Length fahrenheit = new Length(Unit.FAHRENHEIT, 212.0);
+        Length celcius = new Length(Unit.CELSIUS, 100.0);
+        boolean equality=fahrenheit.compare(celcius);
+        Assert.assertTrue(equality);
+    }
 }
 
 
