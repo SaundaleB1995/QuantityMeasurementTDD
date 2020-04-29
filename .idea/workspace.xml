@@ -72,7 +72,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QuantityTest.given1kgAnd1000Gram_WhenCompare_ShouldReturnEqual">
+  <component name="RunManager" selected="Gradle.QuantityTest.given1TonneAnd1000KiloGram_WhenCompare_ShouldReturnEqual">
     <configuration name="QuantityTest.given1FeetAnd1Inch_ShouldReturnNotEquals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -93,12 +93,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityTest.given1GallonAdding3Point78Litres_ShouldReturn7point57Litres" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityTest.given1LitreAdding1000MiliLitres_ShouldReturn2Litres" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given1GallonAdding3Point78Litres_ShouldReturn7point57Litres&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given1LitreAdding1000MiliLitres_ShouldReturn2Litres&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -113,12 +113,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityTest.given1LitreAdding1000MiliLitres_ShouldReturn2Litres" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityTest.given1TonneAnd1000KiloGram_WhenCompare_ShouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given1LitreAdding1000MiliLitres_ShouldReturn2Litres&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given1TonneAnd1000KiloGram_WhenCompare_ShouldReturnEqual&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QuantityTest.given1TonneAnd1000KiloGram_WhenCompare_ShouldReturnEqual" />
         <item itemvalue="Gradle.QuantityTest.given1kgAnd1000Gram_WhenCompare_ShouldReturnEqual" />
         <item itemvalue="Gradle.QuantityTest.given1LitreAdding1000MiliLitres_ShouldReturn2Litres" />
         <item itemvalue="Gradle.QuantityTest.given2InchAnd5Centimeter_WhenCompare_ShouldReturnEqual" />
         <item itemvalue="Gradle.QuantityTest.given1FeetAnd1Inch_ShouldReturnNotEquals" />
-        <item itemvalue="Gradle.QuantityTest.given1GallonAdding3Point78Litres_ShouldReturn7point57Litres" />
       </list>
     </recent_temporary>
   </component>
@@ -209,26 +209,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588105013454" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588131340252">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588131680442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588131340252" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588131340252">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588131680442" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588131680426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588131340252" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588131340252">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588131680426" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588131680426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588131340252" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588131340252">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588131680426" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588131680442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588131340252" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1588130245168">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588131680442" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1588131652710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1588130245168" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1588131652710" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588102225105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
