@@ -17,8 +17,8 @@ public class Length {
         return Double.compare(length.value, value) == 0 &&  unit==length.unit;
     }
     public boolean compare(Length that) {
-            double value1=this.unit.getBaseValue()*this.value;//12.0
-        double value2=that.unit.getBaseValue()*that.value;//1.0
+            double value1=this.unit.getBaseValue()*this.value;
+        double value2=that.unit.getBaseValue()*that.value;
         return Double.compare(value1,value2)==0;
     }
     public double addValue(Length that) {
