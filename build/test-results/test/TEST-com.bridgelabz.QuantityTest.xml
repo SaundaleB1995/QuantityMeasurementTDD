@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.QuantityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-29T03:35:30" hostname="DESKTOP-J547DO8" time="0.008">
+<testsuite name="com.bridgelabz.QuantityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-29T03:41:17" hostname="DESKTOP-J547DO8" time="0.009">
   <properties/>
-  <testcase name="given1kgAnd1000Gram_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.008"/>
+  <testcase name="given1TonneAnd1000KiloGram_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
