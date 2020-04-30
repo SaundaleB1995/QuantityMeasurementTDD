@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.QuantityTest" tests="36" skipped="0" failures="0" errors="0" timestamp="2020-04-30T09:35:51" hostname="DESKTOP-J547DO8" time="0.125">
+<testsuite name="com.bridgelabz.QuantityTest" tests="36" skipped="0" failures="0" errors="0" timestamp="2020-04-30T09:45:23" hostname="DESKTOP-J547DO8" time="0.143">
   <properties/>
-  <testcase name="given1GallonAdding3Point78Litres_ShouldReturn7point56Litres" classname="com.bridgelabz.QuantityTest" time="0.028"/>
+  <testcase name="given3KiloGramAnd1Yard_WhenCompared_ShouldReturnException" classname="com.bridgelabz.QuantityTest" time="0.007"/>
+  <testcase name="given1FeetAnd1Centimeter_ShouldReturnException" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given1GallonAdding3Point78Litres_ShouldReturn7point56Litres" classname="com.bridgelabz.QuantityTest" time="0.006"/>
   <testcase name="given1FeetAnd1Yard_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given0FeetAnd0Inch_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="givenInchAndKG_shouldReturnCustomException" classname="com.bridgelabz.QuantityTest" time="0.003"/>
-  <testcase name="given2InchAddWith2Inch_ShouldReturn4Inch" classname="com.bridgelabz.QuantityTest" time="0.0"/>
+  <testcase name="given0FeetAnd0Inch_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="givenInchAndKG_shouldReturnCustomException" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given2InchAddWith2Inch_ShouldReturn4Inch" classname="com.bridgelabz.QuantityTest" time="0.005"/>
   <testcase name="given0InchAnd0Inch_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="given0InchAnd1Inch_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="given3KiloGramAnd1Yard_WhenCompared_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given0FeetAnd0Inch_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="givenNULLAnd1Kilogram_shouldReturnCustomException" classname="com.bridgelabz.QuantityTest" time="0.003"/>
+  <testcase name="given0InchAnd1Inch_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given1And36Inch_WhenCompare_ShouldReturnExceptionl" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given2FahrenheitAddWith2Inch_ShouldReturnException" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given0FeetAnd0Inch_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.004"/>
+  <testcase name="givenNULLAnd1Kilogram_shouldReturnCustomException" classname="com.bridgelabz.QuantityTest" time="0.001"/>
   <testcase name="given212FahrenheitAnd100Celsius_shouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="given1KilogramAnd0Inch_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
   <testcase name="given1FeetAdd2Inch_ShouldReturn14Inch" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given1TonneAdding1000Grams_ShouldReturn1001Kilograms" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given1CelciusAnd1Feet_WhenCompared_ShouldReturnEqualLength" classname="com.bridgelabz.QuantityTest" time="0.003"/>
-  <testcase name="given1FeetAnd1Inch_ShouldReturnNotEquals" classname="com.bridgelabz.QuantityTest" time="0.002"/>
-  <testcase name="given1LitreAdding1000MiliLitres_ShouldReturn2Litres" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given1GallonAnd3point78Liters_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="given0FeetAnd0Feet_ShouldReturnEquals" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="given1TonneAnd1000KiloGram_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="given2FahrenheitAddWith2Inch_ShouldReturn4Inch" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given2LitreAnd5Centimeter_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given0FeetAnd0Litre_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given1LitersAnd1000MiliLitter_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given1FeetAnd1Centimeter_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given2InchAddWith2Point5Centimeter_ShouldReturn3Inch" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given1TonneAdding1000Grams_ShouldReturn1001Kilograms" classname="com.bridgelabz.QuantityTest" time="0.002"/>
+  <testcase name="given1FeetAnd1Inch_ShouldReturnNotEquals" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given1LitreAdding1000MiliLitres_ShouldReturn2Litres" classname="com.bridgelabz.QuantityTest" time="0.0"/>
+  <testcase name="given1GallonAnd3point78Liters_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given0FeetAnd0Feet_ShouldReturnEquals" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given1TonneAnd1000KiloGram_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given1CelciusAnd1Feet_WhenCompared_ShouldReturnException" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given0FeetAnd0Litre_ShouldReturnException" classname="com.bridgelabz.QuantityTest" time="0.022"/>
+  <testcase name="given1KilogramAnd0Inch_ShouldReturnException" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given1LitersAnd1000MiliLitter_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.002"/>
+  <testcase name="given2InchAddWith2Point5Centimeter_ShouldReturn3Inch" classname="com.bridgelabz.QuantityTest" time="0.002"/>
   <testcase name="given0FeetAnd1Feet_ShouldReturnNotEquals" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given1YardAnd36Inch_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
-  <testcase name="given1InchAnd1Celcius_WhenCompare_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
+  <testcase name="given1YardAnd36Inch_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
   <testcase name="given1InchAnd1Yard_WhenCompare_ShouldReturnNotEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
   <testcase name="given1FeetAnd1Feet_WhenCompared_ShouldReturnEqualLength" classname="com.bridgelabz.QuantityTest" time="0.0"/>
+  <testcase name="given2LitreAnd5Centimeter_WhenCompare_ShouldReturnException" classname="com.bridgelabz.QuantityTest" time="0.001"/>
   <testcase name="givenFeetAndFeet_ShouldReturnNull" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given1And36Inch_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
   <testcase name="given1kgAnd1000Gram_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.0"/>
   <testcase name="given2InchAnd5Centimeter_WhenCompare_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.001"/>
-  <testcase name="given3FeetAnd1Yard_WhenCompared_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.003"/>
+  <testcase name="given1InchAnd1Celcius_WhenCompare_ShouldReturnException" classname="com.bridgelabz.QuantityTest" time="0.002"/>
+  <testcase name="given3FeetAnd1Yard_WhenCompared_ShouldReturnEqual" classname="com.bridgelabz.QuantityTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
