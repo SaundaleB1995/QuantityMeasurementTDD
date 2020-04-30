@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/Length.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/Unit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/QuantityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/QuantityTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.QuantityTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.QuantityTest.html" afterDir="false" />
@@ -20,6 +21,7 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.QuantityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.QuantityTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/QuantityMeasure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Unit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/QuantityTest.java" afterDir="false" />
     </list>
@@ -46,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -72,13 +74,13 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QuantityTest.given212FahrenheitAnd100Celsius_shouldReturnEqual">
-    <configuration name="QuantityTest.given1LitreAdding1000MiliLitres_ShouldReturn2Litres" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.QuantityTest">
+    <configuration name="QuantityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given1LitreAdding1000MiliLitres_ShouldReturn2Litres&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -93,12 +95,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityTest.given1TonneAdding1000Grams_ShouldReturn1001Kilograms" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityTest.given0FeetAnd0Inch_ShouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given1TonneAdding1000Grams_ShouldReturn1001Kilograms&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given0FeetAnd0Inch_ShouldReturnEqual&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -113,12 +115,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityTest.given1TonneAnd1000KiloGram_WhenCompare_ShouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityTest.given0FeetAnd1Litter_ShouldReturnException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given1TonneAnd1000KiloGram_WhenCompare_ShouldReturnEqual&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given0FeetAnd1Litter_ShouldReturnException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -133,12 +135,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityTest.given1kgAnd1000Gram_WhenCompare_ShouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityTest.givenInchAndKG_shouldReturnCustomException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given1kgAnd1000Gram_WhenCompare_ShouldReturnEqual&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.givenInchAndKG_shouldReturnCustomException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -153,12 +155,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityTest.given212FahrenheitAnd100Celsius_shouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityTest.givenNULLAnd1KG_shouldReturnCustomException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.given212FahrenheitAnd100Celsius_shouldReturnEqual&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.QuantityTest.givenNULLAnd1KG_shouldReturnCustomException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -175,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.QuantityTest.given212FahrenheitAnd100Celsius_shouldReturnEqual" />
-        <item itemvalue="Gradle.QuantityTest.given1TonneAdding1000Grams_ShouldReturn1001Kilograms" />
-        <item itemvalue="Gradle.QuantityTest.given1TonneAnd1000KiloGram_WhenCompare_ShouldReturnEqual" />
-        <item itemvalue="Gradle.QuantityTest.given1kgAnd1000Gram_WhenCompare_ShouldReturnEqual" />
-        <item itemvalue="Gradle.QuantityTest.given1LitreAdding1000MiliLitres_ShouldReturn2Litres" />
+        <item itemvalue="Gradle.QuantityTest" />
+        <item itemvalue="Gradle.QuantityTest.given0FeetAnd0Inch_ShouldReturnEqual" />
+        <item itemvalue="Gradle.QuantityTest.given0FeetAnd1Litter_ShouldReturnException" />
+        <item itemvalue="Gradle.QuantityTest.givenNULLAnd1KG_shouldReturnCustomException" />
+        <item itemvalue="Gradle.QuantityTest.givenInchAndKG_shouldReturnCustomException" />
       </list>
     </recent_temporary>
   </component>
@@ -201,37 +203,44 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1588105465263" />
-    <state x="413" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588105216693">
+    <state x="413" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588137950338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1588105216693" />
+    <state x="413" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1588137950338" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588105013454">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588105013454" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588132713259">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1588167844918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588132713259" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588132713259">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588167844918" />
+    <state width="1367" height="179" key="GridCell.Tab.0.bottom" timestamp="1588235975390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588132713259" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588132713244">
+    <state width="1367" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588235975390" />
+    <state width="1367" height="179" key="GridCell.Tab.0.center" timestamp="1588235975390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588132713244" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588132713259">
+    <state width="1367" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588235975390" />
+    <state width="1367" height="179" key="GridCell.Tab.0.left" timestamp="1588235975390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588132713259" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1588131652710">
+    <state width="1367" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588235975390" />
+    <state width="1367" height="179" key="GridCell.Tab.0.right" timestamp="1588235975390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1588131652710" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588102225105">
+    <state width="1367" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588235975390" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1588141890899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588102225105" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1588141890899" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588227551456">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588227551456" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/QuantityMeasurementTDDProblemStatement$Tests_in__QuantityMeasurementTDDProblemStatement_test_.ic" NAME="Tests in 'QuantityMeasurementTDDProblemStatement.test' Coverage Results" MODIFIED="1588142518054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
